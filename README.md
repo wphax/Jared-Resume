@@ -1,1 +1,1 @@
-# Jared-Resume
+# Resume of Jared Helgeson
