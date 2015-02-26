@@ -118,9 +118,9 @@ footer {
   #main #main-home .main-home-block {
     width: 100%;
     height: auto; }
-    #main #main-home .main-home-block.main-block {
+    #main #main-home .main-home-block.main-block.logo-block {
       text-align: center; }
-      #main #main-home .main-home-block.main-block h2 {
+      #main #main-home .main-home-block.main-block.logo-block h2 {
         width: 80%;
         margin: 0.5em auto 0 auto; }
 
