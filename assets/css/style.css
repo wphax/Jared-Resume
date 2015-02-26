@@ -76,7 +76,8 @@ body {
         border-bottom: #d7d8d6 1px dotted;
         text-shadow: 2px 2px #d7d8d6; }
         #main #main-home .main-home-block.main-block h1 span {
-          font-size: 0.7em; }
+          font-size: 0.7em;
+          color: #d9534f; }
       #main #main-home .main-home-block.main-block h2 {
         font-size: 1.8em;
         line-height: 1em;
