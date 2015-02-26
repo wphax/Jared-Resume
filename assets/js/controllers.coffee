@@ -1,5 +1,7 @@
 angular.module 'wphax.controllers', [ 'ui.router' ]
 
-.controller 'HomeController', [ '$scope', '$state', ( $scope, $state ) ->
-	
+.controller 'AppCtrl', [ '$scope', '$state', ( $scope, $state ) ->
+]
+
+.controller 'AdminCtrl', [ '$scope', '$state', ( $scope, $state ) ->
 ]
