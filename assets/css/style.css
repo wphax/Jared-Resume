@@ -116,9 +116,9 @@ footer {
     width: 100%; }
 
   #main #main-home .main-home-block {
-    width: 100%; }
+    width: 100%;
+    height: auto; }
     #main #main-home .main-home-block.main-block {
-      height: auto;
       text-align: center; }
       #main #main-home .main-home-block.main-block h2 {
         width: 80%;
