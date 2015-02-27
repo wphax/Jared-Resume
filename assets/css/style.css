@@ -89,6 +89,10 @@ body {
           font-weight: normal;
           letter-spacing: -1px;
           text-shadow: 1px 1px white; }
+      #main #main-home .main-home-block.contact-block .contact-invalid-message {
+        font-size: 0.8em;
+        color: #a94442;
+        text-transform: none; }
       #main #main-home .main-home-block:nth-child(3n) {
         margin-right: 0; }
 
