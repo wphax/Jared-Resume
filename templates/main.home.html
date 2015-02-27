@@ -178,7 +178,7 @@
 				<textarea class="form-control" placeholder="Tell me about your project." rows="3" ng-model="contact.message" name="message" required></textarea>
 			</div>
 			<div class="form-group">
-				<input type="submit" class="btn btn-primary" value="Send" ng-class="{ disabled: !contactForm.$valid }">
+				<input type="submit" class="btn btn-primary" value="Send" ng-class="{ disabled: !contactForm.$valid }"> <span ng-show="!contactForm.$valid && ( contactForm.sender_name.$touched || contactForm.sender_email.$touched || contactForm.message.$touched )" class="contact-invalid-message">&mdash; Please fill in all of the required fields.</span>
 			</div>
 		</form>
 	</div>
