@@ -1,6 +1,3 @@
-.socicon
-	font-family: 'socicon' !important
-
 body
 	background: #eff0ee
 	margin: 0
@@ -23,16 +20,21 @@ body
 		color: white
 
 		a
+			font-family: 'fontello'
+			font-size: 1.6em
 			color: white
+			background: #333
+			display: block
+			text-decoration: none
+			text-shadow: 1px 1px darken( #333, 10% )
+			border-bottom: rgba( 255, 255, 255, 0.5) 1px dotted
+
+			&:hover
+				text-shadow: 1px 1px lighten( #333, 10% )
 
 		ul
 			margin: 0
 			padding: 0
-
-			li
-				background: #333
-				margin-bottom: 0.2em
-				padding: 0.5em
 
 	#main-home
 		overflow: hidden
