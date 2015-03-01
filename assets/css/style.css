@@ -1,3 +1,6 @@
+.socicon {
+  font-family: "socicon" !important; }
+
 body {
   background: #eff0ee;
   margin: 0;
@@ -12,6 +15,20 @@ body {
 
 #main {
   margin-top: 2em; }
+  #main #social-icons {
+    position: fixed;
+    left: 0;
+    top: 10em;
+    color: white; }
+    #main #social-icons a {
+      color: white; }
+    #main #social-icons ul {
+      margin: 0;
+      padding: 0; }
+      #main #social-icons ul li {
+        background: #333;
+        margin-bottom: 0.2em;
+        padding: 0.5em; }
   #main #main-home {
     overflow: hidden; }
     #main #main-home .main-home-block {
