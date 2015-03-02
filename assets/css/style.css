@@ -68,10 +68,12 @@ body {
     #main #social-icons ul {
       margin: 0;
       padding: 0;
-      display: inline-block; }
+      display: inline-block;
+      text-align: center; }
       #main #social-icons ul li {
         float: left;
-        margin-right: 1px; }
+        margin-right: 1px;
+        display: inline-block; }
         #main #social-icons ul li:last-child {
           margin-right: 0; }
   #main #portfolio {
