@@ -17,7 +17,6 @@ body {
     overflow: hidden;
     padding-left: 0.5em; }
     #main nav a {
-      font-size: 0.8em;
       color: white;
       display: block;
       padding: 0 0.5em;
@@ -31,7 +30,8 @@ body {
     #main nav ul {
       list-style: none;
       margin: 0;
-      padding: 0; }
+      padding: 0;
+      font-size: 0.8em; }
       #main nav ul li {
         webkit-transform: skew(-20deg);
         -moz-transform: skew(-20deg);
@@ -45,11 +45,9 @@ body {
   #main #social-icons {
     color: white;
     overflow: hidden;
-    text-align: center;
     bottom: 1em;
     clear: both; }
     #main #social-icons a {
-      font-size: 4em;
       color: #d5d8d3;
       display: block;
       text-decoration: none; }
@@ -68,14 +66,12 @@ body {
     #main #social-icons ul {
       margin: 0;
       padding: 0;
-      display: inline-block;
-      text-align: center; }
+      text-align: center;
+      width: 100%;
+      height: 1.5em;
+      font-size: 4em; }
       #main #social-icons ul li {
-        float: left;
-        margin-right: 1px;
         display: inline-block; }
-        #main #social-icons ul li:last-child {
-          margin-right: 0; }
   #main #portfolio {
     clear: both; }
   #main #main-home {
