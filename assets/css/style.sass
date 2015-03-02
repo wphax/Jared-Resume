@@ -12,32 +12,95 @@ body
 
 #main
 	margin-top: 2em
+	position: relative
 
-	#social-icons
-		position: fixed
-		left: 0
-		top: 10em
-		color: white
+	nav
+		overflow: hidden
+		padding-left: 0.5em
 
 		a
-			font-family: 'fontello'
-			font-size: 1.6em
+			font-size: 0.8em
 			color: white
-			background: #333
 			display: block
+			padding: 0 0.5em
+			webkit-transform: skew( 20deg )
+			-moz-transform: skew( 20deg )
+			-o-transform: skew( 20deg )
+			transform: skew( 20deg )
 			text-decoration: none
-			text-shadow: 1px 1px darken( #333, 10% )
-			border-bottom: rgba( 255, 255, 255, 0.5) 1px dotted
 
 			&:hover
-				text-shadow: 1px 1px lighten( #333, 10% )
+				color: #5bc0de
+
+		ul 
+			list-style: none
+			margin: 0
+			padding: 0
+
+			li 
+				webkit-transform: skew(-20deg)
+				-moz-transform: skew(-20deg)
+				-o-transform: skew(-20deg)
+				transform: skew(-20deg)
+				background: #333
+				float: left
+				margin-right: 2px
+
+				&:last-child
+					margin-right: 0
+
+	#social-icons
+		color: white
+		overflow: hidden
+		text-align: center
+		bottom: 1em
+		clear: both
+
+		a
+			font-size: 4em
+			color: darken( #EFF0EE, 10% )
+			display: block
+			text-decoration: none
+
+			&.icon-facebook:hover
+				color: #3b5998
+
+			&.icon-twitter:hover
+				color: #00aced
+
+			&.icon-github:hover
+				color: #333
+
+			&.icon-linkedin:hover
+				color: #007bb6
+
+			&.icon-stackoverflow:hover
+				color: #F47920
+
+			&.icon-skype:hover
+				color: #009EE5
 
 		ul
 			margin: 0
 			padding: 0
+			display: inline-block
+
+			li
+				float: left
+				margin-right: 1px
+
+				&:last-child
+					margin-right: 0
+
+	#portfolio
+		clear: both
 
 	#main-home
 		overflow: hidden
+
+		#blocks
+			clear: both
+			height: auto
 
 		.main-home-block
 			-webkit-box-sizing: border-box

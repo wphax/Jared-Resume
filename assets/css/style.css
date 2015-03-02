@@ -11,28 +11,76 @@ body {
   padding: 0 20px; }
 
 #main {
-  margin-top: 2em; }
-  #main #social-icons {
-    position: fixed;
-    left: 0;
-    top: 10em;
-    color: white; }
-    #main #social-icons a {
-      font-family: "fontello";
-      font-size: 1.6em;
+  margin-top: 2em;
+  position: relative; }
+  #main nav {
+    overflow: hidden;
+    padding-left: 0.5em; }
+    #main nav a {
+      font-size: 0.8em;
       color: white;
-      background: #333;
       display: block;
-      text-decoration: none;
-      text-shadow: 1px 1px #1a1a1a;
-      border-bottom: rgba(255, 255, 255, 0.5) 1px dotted; }
-      #main #social-icons a:hover {
-        text-shadow: 1px 1px #4d4d4d; }
-    #main #social-icons ul {
+      padding: 0 0.5em;
+      webkit-transform: skew(20deg);
+      -moz-transform: skew(20deg);
+      -o-transform: skew(20deg);
+      transform: skew(20deg);
+      text-decoration: none; }
+      #main nav a:hover {
+        color: #5bc0de; }
+    #main nav ul {
+      list-style: none;
       margin: 0;
       padding: 0; }
+      #main nav ul li {
+        webkit-transform: skew(-20deg);
+        -moz-transform: skew(-20deg);
+        -o-transform: skew(-20deg);
+        transform: skew(-20deg);
+        background: #333;
+        float: left;
+        margin-right: 2px; }
+        #main nav ul li:last-child {
+          margin-right: 0; }
+  #main #social-icons {
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    bottom: 1em;
+    clear: both; }
+    #main #social-icons a {
+      font-size: 4em;
+      color: #d5d8d3;
+      display: block;
+      text-decoration: none; }
+      #main #social-icons a.icon-facebook:hover {
+        color: #3b5998; }
+      #main #social-icons a.icon-twitter:hover {
+        color: #00aced; }
+      #main #social-icons a.icon-github:hover {
+        color: #333; }
+      #main #social-icons a.icon-linkedin:hover {
+        color: #007bb6; }
+      #main #social-icons a.icon-stackoverflow:hover {
+        color: #F47920; }
+      #main #social-icons a.icon-skype:hover {
+        color: #009EE5; }
+    #main #social-icons ul {
+      margin: 0;
+      padding: 0;
+      display: inline-block; }
+      #main #social-icons ul li {
+        float: left;
+        margin-right: 1px; }
+        #main #social-icons ul li:last-child {
+          margin-right: 0; }
+  #main #portfolio {
+    clear: both; }
   #main #main-home {
     overflow: hidden; }
+    #main #main-home #blocks {
+      clear: both;
+      height: auto; }
     #main #main-home .main-home-block {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
