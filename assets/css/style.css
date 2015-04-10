@@ -68,7 +68,6 @@ body {
       padding: 0;
       text-align: center;
       width: 100%;
-      height: 1.5em;
       font-size: 4em; }
       #main #social-icons ul li {
         display: inline-block; }
@@ -77,8 +76,7 @@ body {
   #main #main-home {
     overflow: hidden; }
     #main #main-home #blocks {
-      clear: both;
-      height: auto; }
+      overflow: hidden; }
     #main #main-home .main-home-block {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
@@ -191,6 +189,14 @@ footer {
       text-align: center; }
 
   footer {
-    text-align: center; } }
+    text-align: center; }
+
+  #main #social-icons ul {
+    width: 60%;
+    margin: 0 auto; } }
+@media (max-width: 540px) {
+  #main #social-icons ul {
+    font-size: 3em;
+    width: 55%; } }
 
 /*# sourceMappingURL=style.css.map */
