@@ -58,7 +58,7 @@
 
 			<div class="row detail-row">
 				<div class="col-sm-5 col-xs-5 detail-row-label"><span class="glyphicon glyphicon-phone"></span> Phone</div>
-				<div class="col-sm-7 col-xs-7 detail-row-value"><a href="tel:17155335444">+1.715.533.5444</a></div>
+				<div class="col-sm-7 col-xs-7 detail-row-value"><a href="tel:17155335444">+1.715.530.3538</a></div>
 			</div>
 
 			<div class="row detail-row">
@@ -78,7 +78,7 @@
 
 			<div class="row detail-row">
 				<div class="col-sm-5 col-xs-5 detail-row-label"><span class="glyphicon glyphicon-home"></span> Address</div>
-				<div class="col-sm-7 col-xs-7 detail-row-value">N39523 Witt Hill Rd.<br>Whitehall, WI 54773</div>
+				<div class="col-sm-7 col-xs-7 detail-row-value">402 Elm St<br>Strum, WI 54770</div>
 			</div>
 		</div>
 
@@ -86,7 +86,7 @@
 			<h3><span class="glyphicon glyphicon-briefcase"></span> Employment History</h3>
 
 			<div class="employment-history-item">
-				<h4>Freelance <span>2007-2015</span></h4>
+				<h4>Freelance <span>2007-2016</span></h4>
 				<p>I have been freelancing since the beginning. Most of the projects I get hired for are from Elance.com and previous clients I have worked with.</p>
 			</div>
 
@@ -166,19 +166,18 @@
 
 		<div class="main-home-block main-block contact-block">
 			<h3><span class="glyphicon glyphicon-send"></span> Contact Me</h3>
-
 			<form class="form-horizontal" name="contactForm" ng-submit="sendEmail()" novalidate>
 				<div class="form-group" ng-class="{ 'has-error': !contactForm.sender_name.$valid && contactForm.sender_name.$touched }">
-					<input type="text" class="form-control" placeholder="Name" ng-model="contact.sender_name" name="sender_name" required>
+					<input type="text" class="form-control" placeholder="Name" ng-model="contact.sender_name" name="sender_name" required disabled>
 				</div>
 				<div class="form-group" ng-class="{ 'has-error': !contactForm.sender_email.$valid && contactForm.sender_email.$touched }">
-					<input type="email" class="form-control" placeholder="Email" ng-model="contact.sender_email" name="sender_email" required>
+					<input type="email" class="form-control" placeholder="Email" ng-model="contact.sender_email" name="sender_email" required disabled>
 				</div>
 				<div class="form-group" ng-class="{ 'has-error': !contactForm.message.$valid && contactForm.message.$touched }">
-					<textarea class="form-control" placeholder="Tell me about your project." rows="3" ng-model="contact.message" name="message" required></textarea>
+					<textarea class="form-control" placeholder="Tell me about your project." rows="3" ng-model="contact.message" name="message" required disabled></textarea>
 				</div>
 				<div class="form-group">
-					<input type="submit" class="btn btn-primary" value="Send" ng-class="{ disabled: !contactForm.$valid }"> <span ng-show="!contactForm.$valid && ( contactForm.sender_name.$touched || contactForm.sender_email.$touched || contactForm.message.$touched )" class="contact-invalid-message">&mdash; Please fill in all of the required fields.</span>
+					<input type="submit" class="btn btn-primary" value="Send" ng-class="{ disabled: !contactForm.$valid }" disabled> <span ng-show="!contactForm.$valid && ( contactForm.sender_name.$touched || contactForm.sender_email.$touched || contactForm.message.$touched )" class="contact-invalid-message">&mdash; Please fill in all of the required fields.</span>
 				</div>
 			</form>
 		</div>
